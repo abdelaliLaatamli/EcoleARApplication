@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff473c55b7b02b48be065244c409beb, type: 3}
+  m_Name: table-a-manger
+  m_EditorClassIdentifier: 
+  imageObject: {fileID: 21300000, guid: a0fcb61adfa69c642b1347bb466d3a0e, type: 3}
+  title:
+    fr: "table \xE0 manger"
+    en: dinner table
+    es: mesa de comedor
+  sentence:
+  - fr: "Un meuble qui se tient sur 4 pattes\u200B avec des  chaises autour. C'est
+      l\xE0 o\xF9\u200B toute la famille s'assoie / se rassemble\u200B pour manger."
+    en: A piece of furniture that stands on 4 legs with chairs around. This is where
+      the whole family sits / gathers to eat.
+    es: "Un mueble que se apoya en 4 patas con sillas alrededor. Aqu\xED es donde
+      toda la familia se sienta / se re\xFAne para comer."
+  - fr: "On se r\xE9unit autour de la table \xE0\u200B manger pour prendre nos repas."
+    en: We meet around the dining table to take our meals.
+    es: Nos reunimos alrededor de la mesa del comedor para comer.
+  vedioUrl: 
+  audioData: {fileID: 0}

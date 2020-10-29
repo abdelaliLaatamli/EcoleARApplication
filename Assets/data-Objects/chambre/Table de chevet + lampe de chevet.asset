@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff473c55b7b02b48be065244c409beb, type: 3}
+  m_Name: Table de chevet + lampe de chevet
+  m_EditorClassIdentifier: 
+  imageObject: {fileID: 21300000, guid: 8129a4b2f504d8c47b5493cfa165930a, type: 3}
+  title:
+    fr: Table de chevet / lampe de chevet
+    en: Bedside table / bedside lamp
+    es: "Mesita de noche / l\xE1mpara de noche"
+  sentence:
+  - fr: "Aussi appel\xE9 table de nuit. C'est une\u200B table situ\xE9e \xE0 c\xF4t\xE9
+      du lit, on y pose\u200B notre histoire du soir, un verre d'eau\u200B et la
+      lampe de chevet."
+    en: Also called night stand. It's a table next to the bed, we put our evening
+      story, a glass of water and the bedside lamp.
+    es: "Tambi\xE9n se llama mesita de noche. Es una mesa junto a la cama, ponemos
+      nuestro cuento de la tarde, un vaso de agua y la l\xE1mpara de noche."
+  - fr: "C'est l\xE0 o\xFA je d\xE9pose mon histoire pr\xE9f\xE9r\xE9e."
+    en: This is where I put my favorite story.
+    es: "Aqu\xED es donde pongo mi historia favorita."
+  - fr: "Lampe que l'on place pr\xE8s du lit, g\xE9n\xE9ralement pos\xE9 sur la table
+      de\u200B nuit."
+    en: Lamp that is placed near the bed, usually placed on the night table.
+    es: "L\xE1mpara que se coloca cerca de la cama, generalmente colocada sobre la
+      mesa de noche."
+  - fr: "Chaque soir, j'allume la lampe de\u200Bchevet pour illuminer l'histoire
+      du soir\u200B que mes parents vont me lire avant de\u200B dormir."
+    en: Every evening, I turn on the bedside lamp to illuminate the evening story
+      that my parents are going to read to me before I sleep.
+    es: "Todas las noches enciendo la l\xE1mpara de la mesilla de noche para iluminar
+      el cuento vespertino que mis padres me leer\xE1n antes de dormir."
+  vedioUrl: 
+  audioData: {fileID: 0}

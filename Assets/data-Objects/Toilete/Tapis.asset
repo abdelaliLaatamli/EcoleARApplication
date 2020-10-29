@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff473c55b7b02b48be065244c409beb, type: 3}
+  m_Name: Tapis
+  m_EditorClassIdentifier: 
+  imageObject: {fileID: 21300000, guid: 9ec2c75cca0848242a91f0d77b37fea7, type: 3}
+  title:
+    fr: Tapis
+    en: Carpet
+    es: Alfombra
+  sentence:
+  - fr: "Un tapis est un tissu qui est mis au sol\u200B soit pour d\xE9corer soit
+      pour qu'on\u200B puisse marcher dessus."
+    en: A rug is a fabric that is placed on the floor either to decorate or so that
+      we can walk on it.
+    es: Una alfombra es una tela que se coloca en el suelo ya sea para decorar o
+      para caminar.
+  vedioUrl: 
+  audioData: {fileID: 0}

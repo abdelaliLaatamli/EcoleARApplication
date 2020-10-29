@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff473c55b7b02b48be065244c409beb, type: 3}
+  m_Name: Lit
+  m_EditorClassIdentifier: 
+  imageObject: {fileID: 21300000, guid: f9896af958f5b794c855f545b34cb245, type: 3}
+  title:
+    fr: Lit
+    en: Bed
+    es: Cama
+  sentence:
+  - fr: "Le lit est un meuble en metal ou bois\u200B avec un matelas dans lequel
+      on dort la\u200B nuit."
+    en: The bed is a piece of furniture in metal or wood with a mattress in which
+      we sleep at night.
+    es: "La cama es un mueble en metal o madera con un colch\xF3n en el que dormimos
+      por la noche."
+  - fr: "Mon lit est tr\xE8s confortable pour me\u200B reposer la nuit."
+    en: My bed is very comfortable to rest at night.
+    es: "Mi cama es muy c\xF3moda para descansar por la noche."
+  vedioUrl: 
+  audioData: {fileID: 0}

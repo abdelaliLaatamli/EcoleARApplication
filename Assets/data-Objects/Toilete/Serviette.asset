@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff473c55b7b02b48be065244c409beb, type: 3}
+  m_Name: Serviette
+  m_EditorClassIdentifier: 
+  imageObject: {fileID: 21300000, guid: 3326367071721f040910173d7c687b12, type: 3}
+  title:
+    fr: Serviette
+    en: Towel
+    es: Servilleta
+  sentence:
+  - fr: "Un linge que l'on utilise pour la\u200B toilette (on essuie le corps ou
+      les\u200B mains) ou pendant les repas (pour les \u200Bmains et la bouche)."
+    en: A cloth that one uses for the toilet (one wipes the body or the hands) or
+      during the meals (for the hands and the mouth).
+    es: "Un pa\xF1o que se usa para el ba\xF1o (se limpia el cuerpo o las manos)
+      o durante las comidas (para las manos y la boca)."
+  - fr: "Je m'essuie les mains avec ma\u200B serviette apr\xE8s les avoir lav\xE9es."
+    en: I dry my hands with my towel after washing them.
+    es: "Me seco las manos con la toalla despu\xE9s de lavarlas."
+  vedioUrl: 
+  audioData: {fileID: 0}

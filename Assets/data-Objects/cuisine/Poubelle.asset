@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff473c55b7b02b48be065244c409beb, type: 3}
+  m_Name: Poubelle
+  m_EditorClassIdentifier: 
+  imageObject: {fileID: 21300000, guid: 166d62ef8cec09f42b59ad3164a2795a, type: 3}
+  title:
+    fr: Poubelle
+    en: Trash can
+    es: Bote de basura
+  sentence:
+  - fr: "Un objet o\xF9 on jette les ordures."
+    en: An object where we throw garbage.
+    es: Un objeto donde tiramos basura.
+  - fr: "Je mange une banane et je jette la\u200B peau dans la poubelle."
+    en: I eat a banana and throw the skin in the trash.
+    es: "Me como un pl\xE1tano y tiro la piel a la basura."
+  vedioUrl: 
+  audioData: {fileID: 0}

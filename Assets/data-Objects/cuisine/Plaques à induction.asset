@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff473c55b7b02b48be065244c409beb, type: 3}
+  m_Name: "Plaques \xE0 induction"
+  m_EditorClassIdentifier: 
+  imageObject: {fileID: 21300000, guid: 516e110925ac227449fd664832b02229, type: 3}
+  title:
+    fr: "Plaques \xE0 induction / Table de cuisson"
+    en: Induction hobs / Cooktop
+    es: "Placas de inducci\xF3n / Tabla de cocci\xF3n"
+  sentence:
+  - fr: "Un \xE9l\xE9ment d'une cuisine qui permet\u200B de cuire ou de r\xE9chauffer
+      les ce qu'on\u200B cuisine."
+    en: An element of a kitchen that allows you to cook or reheat what you are cooking.
+    es: "Un elemento de una cocina que te permite cocinar o recalentar lo que est\xE1s
+      cocinando."
+  - fr: "Pour faire cuire les aliments, nous\u200B utilisons la table de cuisson."
+    en: To cook the food we use the hob.
+    es: Para cocinar los alimentos usamos la encimera.
+  vedioUrl: 
+  audioData: {fileID: 0}

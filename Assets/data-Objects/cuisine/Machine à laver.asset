@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff473c55b7b02b48be065244c409beb, type: 3}
+  m_Name: "Machine \xE0 laver"
+  m_EditorClassIdentifier: 
+  imageObject: {fileID: 21300000, guid: 3df7a11de53f837489f1b8fa795e1c34, type: 3}
+  title:
+    fr: "Machine \xE0 laver"
+    en: Washing machine
+    es: Lavadora
+  sentence:
+  - fr: "Une machine \xE9lectrique pour laver les\u200B v\xEAtements sales."
+    en: An electric machine for washing dirty clothes.
+    es: "Una m\xE1quina el\xE9ctrica para lavar ropa sucia."
+  - fr: "Pour laver le linge, on utilise la\u200B machine \xE0 laver."
+    en: To wash clothes, we use the washing machine.
+    es: Para lavar la ropa usamos la lavadora.
+  vedioUrl: 
+  audioData: {fileID: 0}

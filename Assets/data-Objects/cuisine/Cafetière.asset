@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff473c55b7b02b48be065244c409beb, type: 3}
+  m_Name: "Cafeti\xE8re"
+  m_EditorClassIdentifier: 
+  imageObject: {fileID: 21300000, guid: 6189046313236344a82df675c3515196, type: 3}
+  title:
+    fr: "Cafeti\xE8re"
+    en: Coffee maker
+    es: Cafetera
+  sentence:
+  - fr: "Une machine pour pr\xE9parer le caf\xE9."
+    en: A machine to prepare coffee.
+    es: "Una m\xE1quina para preparar caf\xE9."
+  - fr: "Ma grande soeur pr\xE9pare le caf\xE9 en\u200B utilisant une cafeti\xE8re."
+    en: My big sister makes coffee using a coffee maker.
+    es: "Mi hermana mayor hace caf\xE9 con una cafetera."
+  vedioUrl: 
+  audioData: {fileID: 0}

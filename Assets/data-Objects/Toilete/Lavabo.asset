@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff473c55b7b02b48be065244c409beb, type: 3}
+  m_Name: Lavabo
+  m_EditorClassIdentifier: 
+  imageObject: {fileID: 21300000, guid: c0cb2a50f732bf640bad0ed0ac3e15b4, type: 3}
+  title:
+    fr: Lavabo
+    en: Bathroom sink
+    es: "Lavabo del ba\xF1o"
+  sentence:
+  - fr: "Un lave-mains \xE9quip\xE9e d'un robinet \xE0\u200B hauteur de table."
+    en: A hand basin equipped with a faucet at table height.
+    es: Un lavabo equipado con un grifo a la altura de la mesa.
+  - fr: "Chaque matin, \xE0 mon r\xE9veil, je me lave\u200B les mains et le visage."
+    en: Every morning, when I wake up, I wash my hands and face.
+    es: "Cada ma\xF1ana, cuando me despierto, me lavo las manos y la cara."
+  vedioUrl: 
+  audioData: {fileID: 0}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff473c55b7b02b48be065244c409beb, type: 3}
+  m_Name: Tableau
+  m_EditorClassIdentifier: 
+  imageObject: {fileID: 21300000, guid: ad8cc3451329dbe4da65f7f9264246b3, type: 3}
+  title:
+    fr: Tableau
+    en: Board
+    es: Tablero
+  sentence:
+  - fr: "Un tableau est un objet d'art et de\u200B d\xE9coration. Il peut repr\xE9senter
+      une\u200B personne, des objets ou un paysage."
+    en: A painting is an object of art and decoration. It can represent a person,
+      objects or a landscape.
+    es: "Una pintura es un objeto de arte y decoraci\xF3n. Puede representar a una
+      persona, objetos o un paisaje."
+  - fr: "Le tableau est un \xE9l\xE9ment de la\u200B d\xE9coration du salon."
+    en: The table is an element of the decoration of the living room.
+    es: "La mesa es un elemento de la decoraci\xF3n del sal\xF3n."
+  vedioUrl: 
+  audioData: {fileID: 0}

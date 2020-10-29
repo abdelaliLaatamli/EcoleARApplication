@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff473c55b7b02b48be065244c409beb, type: 3}
+  m_Name: Lampe
+  m_EditorClassIdentifier: 
+  imageObject: {fileID: 21300000, guid: 7fc7cc4c44c48b5488bc02761e518ac4, type: 3}
+  title:
+    fr: Lampe
+    en: Lamp
+    es: "L\xE1mpara"
+  sentence:
+  - fr: "Un objet destin\xE9 \xE0 produire de la\u200B lumi\xE8re et illuminer une
+      pi\xE8ce."
+    en: An object intended to produce light and illuminate a room.
+    es: "Objeto destinado a producir luz e iluminar una habitaci\xF3n."
+  - fr: "J'allume la lampe pour \xE9clairer le salon."
+    en: I turn on the lamp to light up the living room.
+    es: "Enciendo la l\xE1mpara para iluminar la sala."
+  vedioUrl: 
+  audioData: {fileID: 0}
