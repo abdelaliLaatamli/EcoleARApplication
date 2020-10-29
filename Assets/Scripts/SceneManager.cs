@@ -39,6 +39,46 @@ public class SceneManager : MonoBehaviour
     }
 
 
+
+    public void PlaceObject(GameObject prefab)
+    {
+
+
+        if (ObjectSpawned != null) tempTransform = ObjectSpawned.transform;
+
+        DeleteObject();
+
+
+        ObjectsToChoose o = prefab.GetComponentInChildren<ObjectsToChoose>();
+        if (o.objects.Length >= 1)
+        {
+            fournitureUI.SetActive(true);
+            CanvaFornitureShower shower = fournitureUI.GetComponentInChildren<CanvaFornitureShower>();
+            shower.setData(o.objects[0]);
+        }
+        
+     
+        
+        GameObject obj;
+        if (tempTransform == null)
+        {
+            obj = Instantiate(prefab, placementIndicator.position, Quaternion.identity);
+        }
+        else
+        {
+            obj = Instantiate(prefab, tempTransform.position, tempTransform.rotation);
+            obj.transform.localScale = tempTransform.localScale;
+            tempTransform = null;
+        }
+
+
+        ObjectSpawned = obj;
+        selectionUI.SetActive(true);
+
+    }
+
+
+    /*
     public void PlaceObject(GameObject prefab)
     {
 
@@ -65,6 +105,10 @@ public class SceneManager : MonoBehaviour
         selectionUI.SetActive(true);
 
     }
+    */
+
+
+
     public void ScaleObject(float rate)
     {
         ObjectSpawned.transform.localScale += Vector3.one * rate;
@@ -99,14 +143,6 @@ public class SceneManager : MonoBehaviour
             this.multipleObjects.SetActive(true);
         }
 
-
-        /*
-        fournitureUI.SetActive(true);
-        ObjectsToChoose o = selectedObject.GetComponentInChildren<ObjectsToChoose>();
-        // tst.text = " size : "+ o.objects.Length + " ";
-        CanvaFornitureShower shower = fournitureUI.GetComponentInChildren<CanvaFornitureShower>();
-        shower.setData(o.objects[0]);
-        */
     }
 
     void Select(GameObject selected)

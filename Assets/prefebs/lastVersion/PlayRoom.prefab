@@ -7639,6 +7639,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3116535781464862107}
+  - component: {fileID: 5660872706842181958}
   m_Layer: 0
   m_Name: PlayRoom
   m_TagString: Untagged
@@ -7662,6 +7663,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5660872706842181958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3116535781464862108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2bb4dcf3f291274680ff60b66b65fb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects: []
 --- !u!1 &3116535781480461542
 GameObject:
   m_ObjectHideFlags: 0
@@ -9137,15 +9151,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d99c465b237dc9849923aa6967c7635c, type: 3}
---- !u!4 &525312788628066727 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3525064542690219348, guid: d99c465b237dc9849923aa6967c7635c,
-    type: 3}
-  m_PrefabInstance: {fileID: 4008699225297994995}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3535625781242995636 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 482116463628838727, guid: d99c465b237dc9849923aa6967c7635c,
+    type: 3}
+  m_PrefabInstance: {fileID: 4008699225297994995}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &525312788628066727 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3525064542690219348, guid: d99c465b237dc9849923aa6967c7635c,
     type: 3}
   m_PrefabInstance: {fileID: 4008699225297994995}
   m_PrefabAsset: {fileID: 0}
