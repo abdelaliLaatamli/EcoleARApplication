@@ -33,19 +33,13 @@ public class SelectedObject : ScriptableObject
         {
             switch( lang )
             {
-                case "fr":
-                    return this.fr;
-                    break;
-                case "en":
-                    return this.en;
-                    break;
+                case "fr":  return this.fr;
+                
+                case "en": return this.en; 
 
-                case "es":
-                    return this.es;
-                    break;
-
-                default:
-                    return this.fr;
+                case "es": return this.es;
+            
+                default:  return this.fr;
             }
         }
         

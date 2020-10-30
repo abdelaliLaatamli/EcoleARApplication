@@ -48,7 +48,7 @@ public class SceneManager : MonoBehaviour
 
         DeleteObject();
 
-
+        /*
         ObjectsToChoose o = prefab.GetComponentInChildren<ObjectsToChoose>();
         if (o.objects.Length >= 1)
         {
@@ -56,6 +56,7 @@ public class SceneManager : MonoBehaviour
             CanvaFornitureShower shower = fournitureUI.GetComponentInChildren<CanvaFornitureShower>();
             shower.setData(o.objects[0]);
         }
+        */
         
      
         
