@@ -22,13 +22,17 @@ public class CanvaFornitureShower : MonoBehaviour
 
     public int currentSentence = 0;
     public string langage = "fr";
-    // public Image image;
-    // public Image image
+
 
     public AudioSource audioPlys;
     AudioClip myClip;
 
-    // Start is called before the first frame update
+    /*
+    private GameObject gameManagement ;
+    private GameManagement gameManagementScript;
+    */
+
+
     public void setData( SelectedObject data )
     {
         this.dataObject = data;
@@ -39,6 +43,23 @@ public class CanvaFornitureShower : MonoBehaviour
     void Start()
     {
         audioPlys = GetComponent<AudioSource>();
+        // Debug.Log("aaaaa");
+        GameObject gameManagement = GameObject.Find("GameManagement");
+
+
+        //Debug.Log(gameManagement );
+        if(gameManagement != null)
+        {
+            GameManagement gameManagementScript = gameManagement.GetComponent<GameManagement>();
+            this.langage = gameManagementScript.langage;
+        }
+        // gameManagementScript = gameManagement.GetComponent<GameManagement>();
+        //gameManagementScript = gameManagement.GetComponent<GameManagement>();
+
+
+        //Debug.Log(gameManagementScript.langage);
+        //CanvaFornitureShower shower = fournitureUI.GetComponentInChildren<CanvaFornitureShower>();
+        //scriptComponent = gameobject.GetComponent.< LevelController > ();
     }
 
     public void remplaire()
@@ -67,7 +88,6 @@ public class CanvaFornitureShower : MonoBehaviour
     {
 
         StartCoroutine(GetAudioClip( this.dataObject.title.getString(this.langage) , this.langage));
-        //StartCoroutine(GetAudioClip());
 
     }
 
@@ -102,63 +122,11 @@ public class CanvaFornitureShower : MonoBehaviour
             }
         }
     }
-    /*
-    IEnumerator GetAudioClip()
-    {
-        string url = "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=es&q=holla";
 
-        using (UnityWebRequest www = UnityWebRequestMultimedia.GetAudioClip(url, AudioType.MPEG))
-        {
-            yield return www.SendWebRequest();
-
-            if (www.isNetworkError)
-            {
-                Debug.Log(www.error);
-                Debug.Log("network Error");
-            }
-            else
-            {
-                myClip = DownloadHandlerAudioClip.GetContent(www);
-                audioPlys.clip = myClip;
-                audioPlys.Play();
-
-            }
-        }
-    }
-    */
-
-    /*
-    IEnumerator GetAudioClip2()
-    {
-
-        string url = "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=es&q=holla";
-
-        using (UnityWebRequest www = UnityWebRequestMultimedia.GetAudioClip(url, AudioType.MPEG))
-        {
-            yield return www.SendWebRequest();
-            /*
-            if (www.result == UnityWebRequest.Result.ConnectionError)
-            {
-                Debug.Log(www.error);
-            }
-            else
-            {
-                AudioClip myClip = DownloadHandlerAudioClip.GetContent(www);
-            }
-            
-            AudioClip myClip = DownloadHandlerAudioClip.GetContent(www);
-            this.audioPlys.clip = myClip;
-            this.audioPlys.Play();
-
-        }
-    }
-*/
 
     public void speelSentence()
     {
 
-        // StartCoroutine(GetAudioClip());
-        // StartCoroutine(GetAudioClip2());
         StartCoroutine(GetAudioClip(this.dataObject.sentence[currentSentence].getString(this.langage), this.langage));
     }
 

@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 350370933}
   - component: {fileID: 350370932}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Langage Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -305,7 +305,7 @@ GameObject:
   - component: {fileID: 471798653}
   - component: {fileID: 471798652}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Es
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -373,7 +373,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 471798653}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1746965107}
+        m_MethodName: onLangaugeChange
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: es
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &471798653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -507,7 +518,7 @@ GameObject:
   - component: {fileID: 662098212}
   - component: {fileID: 662098211}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -575,7 +586,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 662098212}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1746965107}
+        m_MethodName: onStartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &662098212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -613,6 +635,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662098209}
   m_CullTransparentMesh: 0
+--- !u!1 &1013200332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1013200333}
+  - component: {fileID: 1013200334}
+  m_Layer: 0
+  m_Name: GameManagement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1013200333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013200332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 959.99994, y: 982.2965, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1013200334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013200332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab99a3d85631f3c4e816e16b5f9e1e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  langage: fr
 --- !u!1 &1021385804
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,7 +692,7 @@ GameObject:
   - component: {fileID: 1021385807}
   - component: {fileID: 1021385806}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Fr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -694,7 +760,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1021385807}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1746965107}
+        m_MethodName: onLangaugeChange
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: fr
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1021385807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -745,7 +822,7 @@ GameObject:
   - component: {fileID: 1063998360}
   - component: {fileID: 1063998359}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: En
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -813,7 +890,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1063998360}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1746965107}
+        m_MethodName: onLangaugeChange
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: en
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1063998360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1331,8 +1419,9 @@ GameObject:
   - component: {fileID: 1746965105}
   - component: {fileID: 1746965104}
   - component: {fileID: 1746965103}
+  - component: {fileID: 1746965107}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Langage Canva
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1418,6 +1507,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1746965107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746965102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4f4e29b552c0c142a8cba6e5240343e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  langage: {fileID: 1396166491}
+  gameManagement: {fileID: 1013200334}
 --- !u!1 &1781393398
 GameObject:
   m_ObjectHideFlags: 0
